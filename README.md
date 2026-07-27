@@ -1,7 +1,7 @@
 Vecerl Link: https://route53-clone-u6bk-31f91zz1x-aryan-tyagi.vercel.app/login
-Use these credentials to log in:
-Email: admin@example.com
-Password: password123
+/n Use these credentials to log in:
+/n Email: admin@example.com
+/n Password: password123
 
 
 # AWS Route53 Clone
