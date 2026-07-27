@@ -18,16 +18,16 @@ export default function LoginForm() {
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    console.log("Submit clicked");
+    const success = login(email, password);
 
-  const success = login(email, password);
+    if (success) {
+      router.push("/hosted-zones");
+      return;
+    }
 
-if (success) {
-  router.push("/hosted-zones");
-  return;
-}
+    setError("Invalid email or password.");
+  }
 
-setError("Invalid email or password.");
   return (
     <div className="w-full max-w-md rounded-lg bg-white p-8 shadow-lg">
       <h1 className="mb-2 text-3xl font-bold text-gray-900">
