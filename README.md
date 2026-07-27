@@ -1,15 +1,13 @@
-Vecerl Link: https://route53-clone-u6bk-31f91zz1x-aryan-tyagi.vercel.app/login
-Use these credentials to log in:
-Email: admin@example.com
-Password: password123
+## Live Demo
 
-# AWS Route53 Clone
+**Vercel Link:**  
+https://route53-clone-u6bk-31f91zz1x-aryan-tyagi.vercel.app/login
 
-![Next.js](https://img.shields.io/badge/Next.js-TypeScript-black)
-![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688)
-![SQLite](https://img.shields.io/badge/Database-SQLite-blue)
-![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38BDF8)
-![License](https://img.shields.io/badge/Assignment-AWS%20Route53-orange)
+**Use these credentials to log in:**
+
+- **Email:** admin@example.com
+- **Password:** password123
+
 
 A functional clone of the **AWS Route53 Management Console** built using **Next.js**, **FastAPI**, and **SQLite**.
 
