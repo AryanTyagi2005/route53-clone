@@ -1,9 +1,5 @@
-import Image from "next/image";
+import { redirect } from "next/navigation";
 
 export default function HomePage() {
-  return (
-    <main>
-      <h1>AWS Route53 Clone</h1>
-    </main>
-  );
+  redirect("/login");
 }
