@@ -314,7 +314,7 @@ Hosted Zone
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone (https://github.com/AryanTyagi2005/route53-clone)
 cd route53-clone
 ```
 
