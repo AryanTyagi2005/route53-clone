@@ -1,5 +1,5 @@
 import api from "@/lib/axios";
-import type { HostedZone } from "../types";
+import type { HostedZone } from "../types.ts";
 
 export interface CreateHostedZoneRequest {
   name: string;

@@ -13,7 +13,7 @@ import DeleteRecordModal from "@/features/dns-records/components/DeleteRecordMod
 import Breadcrumb from "@/components/Breadcrumb";
 
 import type { HostedZone } from "@/features/hosted-zones/types";
-import type { DNSRecord } from "@/features/dns-records/components/types";
+import type { DNSRecord } from "@/features/dns-records/types";
 interface HostedZoneRecordsPageProps {
   params: Promise<{
     hostedZoneId: string;

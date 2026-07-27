@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getHostedZones } from "../services/hostedZoneService";
-import type { HostedZone } from "../types";
+import type { HostedZone } from "../types.ts";
 
 export function useHostedZones() {
   const [hostedZones, setHostedZones] = useState<HostedZone[]>([]);

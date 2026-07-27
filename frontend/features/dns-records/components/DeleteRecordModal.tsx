@@ -1,6 +1,6 @@
 "use client";
 
-import { DNSRecord } from "../types";
+import type { DNSRecord } from "../types";
 
 interface DeleteRecordModalProps {
   open: boolean;
