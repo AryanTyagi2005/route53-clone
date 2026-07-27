@@ -12,7 +12,8 @@ import EditRecordModal from "@/features/dns-records/components/EditRecordModal";
 import DeleteRecordModal from "@/features/dns-records/components/DeleteRecordModal";
 import Breadcrumb from "@/components/Breadcrumb";
 
-import { HostedZone, DNSRecord } from "@/features/dns-records/types";
+import type { HostedZone } from "@/features/hosted-zones/types";
+import type { DNSRecord } from "@/features/dns-records/components/types";
 interface HostedZoneRecordsPageProps {
   params: Promise<{
     hostedZoneId: string;
